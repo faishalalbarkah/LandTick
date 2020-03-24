@@ -1,0 +1,28 @@
+.register {
+  width: 120px;
+  height: 40px;
+  margin-top: -39px;
+  margin-left: 650px;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+}
+
+.register {
+  color: white !important;
+}
+
+.register:hover {
+  color: black !important;
+}
+
+.footersregis {
+  width: 150px;
+  height: 45px;
+  color: white;
+  border: 4px;
+  border-radius: 10px;
+  margin-left: 130px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+}

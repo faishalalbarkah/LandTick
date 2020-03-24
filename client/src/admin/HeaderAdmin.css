@@ -1,0 +1,68 @@
+.Adminheader {
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0 0 5px 0 black;
+}
+
+.Adminheader > p {
+  font-size: 40px;
+  float: right;
+  margin-right: 224px;
+  margin-top: -54px;
+
+  color: rgb(236, 122, 122);
+}
+
+.landticc {
+  width: 170px;
+  height: 50px;
+  margin-left: 110px;
+}
+
+.profileorang {
+  width: 60px;
+  height: 50px;
+  margin-left: 872px;
+  margin-top: 4px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  width: 180px;
+  position: absolute;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  background: #ffffff;
+  height: 155px;
+  margin-left: 788px;
+  margin-top: 0px;
+  z-index: +1;
+}
+
+.dropdown-child > p {
+  margin-left: 25px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+.tambahtiketdropadmin {
+  width: 45px;
+  height: 37px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.admindropdownlogout {
+  width: 45px;
+  height: 37px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
